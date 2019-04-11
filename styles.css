@@ -1,0 +1,62 @@
+.h1 {
+  background: rgb(221, 235, 63);
+  color: black;
+}
+html, body {
+  height: 100%;
+  @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100i');
+  font-family: 'Libre Franklin', sans-serif;
+}
+.name, .population {
+  background: rgba(221, 223, 221, 0.509);
+  box-shadow: 1pt 1pt 1pt rgb(44, 201, 180);
+  color: black;
+}
+body {
+  background-image: url('./kenniku-tolato-472281-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+div {
+  display: block;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+input {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+  padding: 3em;
+  color: white;
+  letter-spacing: .02em;
+  font-size: 40px;
+}
+
+ul {
+  display: flex;
+  flex-grow: 0 auto;
+  margin: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+li {
+  list-style: none;
+  flex: 1 1 30%;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
